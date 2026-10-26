@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "184013654562",
+    "project_id": "g4s-javelin-dcd0d",
+    "storage_bucket": "g4s-javelin-dcd0d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184013654562:android:b66c7f76d354abc0d1187b",
+        "android_client_info": {
+          "package_name": "com.example.g4sjavelin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe_r05IIjMwglxf6O_gEoN1_ni2UgWkMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

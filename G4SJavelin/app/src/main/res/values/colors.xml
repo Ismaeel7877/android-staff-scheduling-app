@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="backgroundDark">#121212</color>
+    <color name="bottomNavBackground">#1E1E1E</color>
+    <color name="purpleAccent">#7C4DFF</color>
+
+    <color name="grayLight">#B0B0B0</color>
+    <color name="backgroundLight">#FFFFFF</color>
+    <color name="preferenceTextColor">#000000</color>
+</resources>

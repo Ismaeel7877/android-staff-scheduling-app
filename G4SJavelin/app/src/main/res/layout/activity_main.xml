@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDark"
+    android:padding="16dp"
+    tools:context=".ui.MainActivity">
+
+    <!-- 🔘 Logout (now a rounded MaterialButton in top-right) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogout"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        app:cornerRadius="20dp"
+        app:icon="@drawable/logout"
+        app:iconTint="@color/white"
+        app:strokeColor="@color/purpleAccent"
+        app:strokeWidth="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- 📢 Announcements -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAnnouncements"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Announcements"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        app:cornerRadius="16dp"
+        app:backgroundTint="@color/purpleAccent"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Button to view latest staff announcements"
+        app:layout_constraintTop_toBottomOf="@id/buttonLogout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- 📋 RecyclerView for shifts -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewShifts"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:padding="12dp"
+        android:contentDescription="List of available shifts"
+        app:layout_constraintTop_toBottomOf="@id/buttonAnnouncements"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- ✅ Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bottomNavBackground"
+        app:menu="@menu/menu_bottom_nav"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/nav_item_selector"
+        app:itemTextColor="@color/nav_item_selector"
+        android:contentDescription="Bottom navigation for navigating the app"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

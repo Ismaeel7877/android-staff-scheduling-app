@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Training Session",
+    "message": "First Aid training available on 28th September. Register now!"
+  },
+  {
+    "id": 2,
+    "title": "Uniform Update",
+    "message": "New uniform available from HQ starting October 1st."
+  },
+  {
+    "id": 3,
+    "title": "Policy Reminder",
+    "message": "Please complete the new Health & Safety checklist before your next shift."
+  }
+]

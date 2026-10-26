@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.G4SJavelin" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Apply custom preference theme -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Custom</item>
+    </style>
+
+    <style name="Theme.G4SJavelin" parent="Base.Theme.G4SJavelin" />
+
+    <!-- ✅ Custom Preference Theme Overlay compatible with androidx.preference:1.2.1 -->
+    <style name="PreferenceThemeOverlay.Custom" parent="PreferenceThemeOverlay.v14.Material">
+        <!-- Preference item titles -->
+        <item name="android:textAppearanceSmall">@style/PreferenceTitleText</item>
+        <!-- Preference item summaries -->
+        <item name="android:textAppearance">@style/PreferenceSummaryText</item>
+        <!-- Preference category headers -->
+        <item name="android:textAppearanceMedium">@style/PreferenceCategoryText</item>
+    </style>
+
+    <!-- Title text style -->
+    <style name="PreferenceTitleText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Summary text style -->
+    <style name="PreferenceSummaryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <!-- Category header text style -->
+    <style name="PreferenceCategoryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

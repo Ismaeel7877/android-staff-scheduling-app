@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ⚡ App Appearance -->
+    <PreferenceCategory
+        android:title="Appearance">
+
+        <!-- Dark Mode Toggle -->
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Enable Dark Mode"
+            android:summary="Switch between light and dark theme" />
+    </PreferenceCategory>
+
+    <!-- ⚡ Notifications -->
+    <PreferenceCategory
+        android:title="Notifications">
+
+        <!-- Notifications Toggle -->
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:summary="Turn shift reminders on or off" />
+    </PreferenceCategory>
+
+    <!-- ⚡ Profile -->
+    <PreferenceCategory
+        android:title="Profile">
+
+        <!-- Profile Settings -->
+        <EditTextPreference
+            android:key="user_name"
+            android:title="Profile Name"
+            android:summary="Set your display name"
+            android:dialogTitle="Enter your name" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
