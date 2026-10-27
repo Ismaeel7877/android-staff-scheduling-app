@@ -17,7 +17,8 @@ A native Android application developed in Kotlin and Android Studio, achieving a
 
 ## 📺 Demo & Screenshots
 * **YouTube Walkthrough:** https://youtu.be/zJUU2Y7fRk8?si=S_njNX6A9uJ4cb33 
-* Screenshots of the application screens are available in the `/screenshots` directory of this repository.
+  ### Home Page
+  ![Home Page](Screenshots/Home_Page.png)
 
 ## 📥 Installation & Setup
 1. Clone this repository or download the ZIP folder.
