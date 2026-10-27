@@ -18,7 +18,11 @@ A native Android application developed in Kotlin and Android Studio, achieving a
 ## 📺 Demo & Screenshots
 * **YouTube Walkthrough:** https://youtu.be/zJUU2Y7fRk8?si=S_njNX6A9uJ4cb33 
   ### Home Page
-  ![Home Page](Screenshots/Home_Page.png)
+  ![Home Page](G4SJavelin/Screenshots/Home_Page.png)
+  ### Login Page
+   ![Login Page](G4SJavelin/Screenshots/login_page.png)
+  ### Booking Page
+     ![Booking Page](G4SJavelin/Screenshots/Booking_page.png)
 
 ## 📥 Installation & Setup
 1. Clone this repository or download the ZIP folder.
